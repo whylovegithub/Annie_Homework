@@ -13,10 +13,10 @@ signIn.click()
 accout = driver.find_element_by_css_selector('#login_field')
 pwd = driver.find_element_by_css_selector('#password')
 signIn = driver.find_element_by_css_selector('input.btn.btn-primary.btn-block')
-# accountStr = input("----------\nEnter your account:\n----------\n")
-# pwdStr = input("----------\nEnter your pwd: \n----------\n")
-accountStr='whylovechina@gmail.com'
-pwdStr='whyWHY980124@'
+accountStr = input("----------\nEnter your account:\n----------\n")
+pwdStr = input("----------\nEnter your pwd: \n----------\n")
+# accountStr='whylovechina@gmail.com'
+# pwdStr='why**********@'
 accout.send_keys(accountStr)
 pwd.send_keys(pwdStr)
 signIn.click()
